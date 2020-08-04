@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 100px;
+}
+
+header {
+    font-size: 0;
+    width: 100%;
+    height: 0.42rem;
+    box-sizing: border-box;
+    background-color: #FF8A00;
+    display: flex;
+    padding: 0 0.3rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    height: 0.37rem;
+}
+
+header div {
+    display: flex;
+}
+
+header div img {
+    height: 0.34rem;
+}
+
+header div img:first-child {
+    margin-right: 0.16rem;
+}
+
+footer {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #2F3130;
+    padding: 0.1rem;
+    font-size: 0.12rem;
+    box-sizing: border-box;
+    color: #92918F;
+}
+
+footer h3 {
+    font-weight: normal;
+    padding-bottom: 0.07rem;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+footer .down {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0.1rem 0;
+    font-size: 0.13rem;
+}
+
+footer .down p:first-child {
+    padding-left: 0.4rem;
+    background: url(../img/apple.png) no-repeat 0 0;
+    background-size: 0.2rem;
+    box-sizing: border-box;
+}
+
+footer .down p:last-child {
+    padding-left: 0.4rem;
+    background: url(../img/android.png) no-repeat 0 0;
+    background-size: 0.2rem;
+    box-sizing: border-box;
+}
+
+footer .foot {
+    text-align: center;
+    font-size: 0.13rem;
+}
+
+.home-list {
+    list-style: none;
+    padding: 0 0.2rem;
+}
+
+.home-list>li {
+    padding: 0.29rem 0;
+    display: flex;
+    border-bottom: 0.015rem solid #FF1919;
+}
+
+.home-list>li:last-child {
+    border: none;
+}
+
+.home-list>li img {
+    height: 0.8rem;
+    display: block;
+    flex-shrink: 0;
+    margin-right: 0.1rem;
+}
+
+.home-list>li div h4 {
+    width: 1.85rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.16rem;
+}
+
+.home-list>li div p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.12rem;
+    margin: 0.05rem 0;
+}
+
+.home-list>li div p span:nth-child(2) {
+    color: #FF8A00;
+    font-weight: bold;
+}
+
+.home-list>li div p:nth-child(3),
+.home-list>li div p:nth-child(4) {
+    color: #999;
+}
+
+.home-list>li div p:nth-child(3) span:nth-child(2),
+.home-list>li div p:nth-child(4) span:nth-child(2) {
+    color: #ccc;
+    font-weight: bold;
+}
+
+.home-list>li div p .org {
+    color: #FF8A00 !important;
+}
+
+.home-list>li div ul {
+    display: flex;
+    width: 1.85rem;
+    flex-wrap: wrap;
+}
+
+.home-list>li div ul li {
+    padding: 0.03rem 0.02rem;
+    background-color: #EEF2F5;
+    font-size: 0.12rem;
+    color: #9AACBD;
+    margin-right: 0.02rem;
+}

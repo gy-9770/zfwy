@@ -1,0 +1,375 @@
+html {
+  width: 100%;
+  font-size: 10px;
+}
+body {
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.header {
+  background-color: #ff8a00;
+  width: 100%;
+  height: 4.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  width: 9.9rem;
+  height: 2.9 rem;
+  padding-left: 3.4rem;
+}
+.header .my {
+  padding-right: 2rem;
+  width: 2.3rem;
+  height: 2.8 rem;
+}
+.header .xz {
+  padding-right: 3.2rem;
+  width: 2.3rem;
+  height: 2.8 rem;
+}
+.swiper-container {
+  width: 100%;
+  height: 18.5rem;
+}
+.swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.fm {
+  width: 100%;
+  height: 18.5rem;
+  padding-top: 2.4rem;
+  position: relative;
+  background-color: #FFFFFF;
+}
+.fm .mc {
+  padding-left: 2rem;
+  font-size: 1.8rem;
+  color: #000000;
+  font-weight: 600;
+}
+.fm .dj {
+  padding-left: 2rem;
+  padding-top: 1.7rem;
+  font-size: 1.2rem;
+  color: #000000;
+  padding-bottom: 1.6rem;
+}
+.fm .dj span {
+  font-size: 1.1rem;
+  color: #DB4C3F;
+  font-weight: 600;
+}
+.fm .rq {
+  padding-left: 2rem;
+  font: size 1.1rem;
+  color: #B0B0B0;
+}
+.fm .mwwy {
+  padding-left: 2rem;
+  padding-top: 1.7rem;
+}
+.fm .mwwy span {
+  padding: 0.5rem 0.8rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #849AAE;
+  background-color: #DEE9F0;
+}
+.fm img {
+  width: 1.3rem;
+  height: 1.9rem;
+  position: absolute;
+  right: 2rem;
+  top: 8.8rem;
+}
+.xq {
+  width: 100%;
+  margin-top: 1.2rem;
+  background-color: #FFFFFF;
+}
+.xq div {
+  width: 28rem;
+  height: 5rem;
+  line-height: 5rem;
+  margin: auto;
+  border-bottom: 0.1rem solid #E5E5E5;
+  font-size: 1.2rem;
+  color: #000000;
+}
+.xq div span {
+  font-size: 1.2rem;
+  color: #000000;
+}
+.xq div .sp2 {
+  padding-left: 6.5rem;
+}
+.xq div #sp2 {
+  padding-left: 7.6rem;
+}
+.xq div #sp22 {
+  padding-left: 5.9rem;
+}
+.xq .sp22 {
+  text-align: center;
+  color: #999999;
+}
+.js {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.js div {
+  width: 28rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.6rem;
+  color: #FF9326;
+  border-bottom: 0.1rem solid #E5E5E5;
+}
+.js p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 28rem;
+  font-size: 1.2rem;
+  color: #000000;
+  border-bottom: 0.1rem solid #E5E5E5;
+}
+.js .gdts {
+  font-size: 1.2rem;
+  color: #999999;
+  text-align: center;
+}
+.hx {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hx h1 {
+  width: 28rem;
+  height: 5rem;
+  line-height: 5rem;
+  font-size: 1.8rem;
+  color: #FF9326;
+  font-weight: 600;
+  border-bottom: 0.1rem solid #E5E5E5;
+}
+.hx .hxfj {
+  width: 28rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 0.1rem solid #FF9326;
+}
+.hx .hxfj img {
+  width: 7rem;
+  height: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 2.7rem;
+}
+.hx .hxfj .one {
+  margin-top: 2.4rem;
+}
+.hx .hxfj .one .p1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #404040;
+}
+.hx .hxfj .one .p2 {
+  margin-top: 1.4rem;
+  font-size: 1.2rem;
+  color: #840052;
+}
+.hx .hxfj .one .p3 {
+  margin-top: 1.3rem;
+}
+.hx .hxfj .one .p3 span {
+  font-size: 1.1rem;
+  color: #A1A6C8;
+  background-color: #F4F7F9;
+  padding: 0.5rem 0.8rem;
+}
+.hx #hxfj {
+  border: none;
+}
+.xx {
+  width: 100%;
+  background-color: #FFFFFF;
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.xx p {
+  width: 28rem;
+  height: 5rem;
+  line-height: 5rem;
+  border-bottom: 0.1rem solid #E5E5E5;
+  font-size: 1.2rem;
+  color: #000000;
+}
+.xx p span {
+  font-size: 1.1rem;
+  color: #B3A6C4;
+}
+.xx .dkxx {
+  font-size: 1.8rem;
+  color: #000000;
+  font-weight: 600;
+}
+.xx .xxts {
+  font-size: 1.1rem;
+  color: #A1A1A1;
+  text-align: center;
+}
+.introduce {
+  width: 100%;
+  background-color: #fff;
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduce h2 {
+  width: 28rem;
+  font-size: 1.8rem;
+  color: #404040;
+  height: 5rem;
+  line-height: 5rem;
+  border-bottom: 0.1rem solid #E5E5E5;
+}
+.introduce #introduce1 {
+  border-bottom: none;
+}
+.introduce .introduce1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2.9rem;
+  width: 28rem;
+  border-bottom: 0.1rem solid #E5E5E5;
+}
+.introduce .introduce1 img {
+  width: 8.1rem;
+  height: 8.1rem;
+  background-size: 81rem 81rem;
+}
+.introduce .introduce1 .house {
+  padding-left: 1.2rem;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.introduce .introduce1 .house h1 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.introduce .introduce1 .house .yzjs {
+  display: flex;
+  flex-direction: row;
+}
+.introduce .introduce1 .house .yzjs div {
+  display: flex;
+  flex-direction: column;
+}
+.introduce .introduce1 .house .yzjs div p {
+  padding-top: 0.5rem;
+}
+.introduce .introduce1 .house .yzjs div .cx {
+  font-size: 1.1rem;
+  color: #757575;
+}
+.introduce .introduce1 .house .yzjs div .dz {
+  font-size: 1.1rem;
+  color: #B1B1B1;
+}
+.introduce .introduce1 .house .yzjs div .jg {
+  font-size: 1.1rem;
+  color: #FFA740;
+}
+.introduce .introduce1 .house .yzjs .price {
+  padding-left: 3.5rem;
+}
+.introduce .introduce1 .house .yzjs .price p {
+  padding-top: 0.5rem;
+}
+.introduce .introduce1 .house .bq {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
+  margin-bottom: 2.3rem;
+}
+.introduce .introduce1 .house .bq span {
+  text-align: center;
+  line-height: 2rem;
+  display: inline-block;
+  width: 4.4rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  color: #849AAE;
+  background-color: #F4F7F9;
+  margin-right: 0.5rem;
+}
+.introduce #p123 {
+  font-size: 1.1rem;
+  color: #666666;
+  text-align: center;
+  width: 28rem;
+  height: 5rem;
+  line-height: 5rem;
+}
+.client-side {
+  width: 100%;
+  background-color: #2F3130;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.client-side .room {
+  height: 4rem;
+  width: 29rem;
+  font-size: 1.2rem;
+  color: #939494;
+  font-weight: 600;
+  background-color: #2F3130;
+  line-height: 4rem;
+}
+.client-side .client {
+  width: 29rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 0.1rem solid #3E403F;
+}
+.client-side .client .phone {
+  width: 50%;
+  display: flex;
+  margin-top: 1rem;
+}
+.client-side .client .phone div p {
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  font-size: 1.1rem;
+  color: #858686;
+}
+.client-side .add {
+  width: 29rem;
+  margin-top: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.client-side .add p {
+  font-size: 1.2rem;
+  color: #939494;
+}

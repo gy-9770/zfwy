@@ -1,0 +1,200 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.search {
+    margin: 0.2rem 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    width: 90%;
+    height: 0.42rem;
+    border: 0.01rem solid #ccc;
+    outline: none;
+    border-radius: 0.05rem;
+    padding: 0 0.3rem 0 0.1rem;
+    box-sizing: border-box;
+}
+
+.search img {
+    position: absolute;
+    display: block;
+    right: 0.3rem;
+    top: 0.1rem;
+    width: 0.2rem;
+}
+
+.search::after {
+    content: "";
+    display: block;
+    width: 0.01rem;
+    height: 0.2rem;
+    top: 0.1rem;
+    right: 0.6rem;
+    position: absolute;
+    background-color: black;
+}
+
+.home-nav>ul {
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    padding: 0.1rem 0;
+}
+
+.home-nav>ul>li {
+    flex: 1;
+}
+
+.home-nav>ul>li h4 {
+    font-size: 0.2rem;
+    text-align: center;
+    color: #6D6766;
+    background: url(../img/67.png) no-repeat 0.6rem 0rem;
+    background-size: 0.2rem;
+}
+
+.home-nav>ul>li.active h4 {
+    color: #FF8A00;
+    background: url(../img/66.png) no-repeat 0.6rem 0rem;
+    background-size: 0.2rem;
+}
+
+.home-nav>ul>li>.area-p {
+    position: absolute;
+    top: 0.45rem;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home-nav>ul>li>.area-p .area {
+    background-color: #F0F0F0;
+    width: 25%;
+    text-align: center;
+    font-size: 0.2rem;
+    height: 50%;
+}
+
+.home-nav>ul>li>.area-p .area li {
+    font-weight: bold;
+    padding: 0.05rem 0;
+}
+
+.home-nav>ul>li>.area-p .area li.active {
+    background-color: #fff;
+    color: #FF8A00;
+}
+
+.home-nav>ul>li>.area-p .item {
+    width: 75%;
+    background-color: #fff;
+    height: 50%;
+    overflow: hidden;
+}
+
+.home-nav>ul>li>.area-p .item li {
+    float: left;
+    font-size: 0.12rem;
+    width: 50%;
+    height: 0.2rem;
+    margin: 0;
+    text-align: center;
+    margin: 0.1rem 0;
+}
+
+.home-nav>ul>li>.area-p .item li.selected {
+    color: #FF8A00;
+}
+
+.home-nav>ul>li>.pri-list {
+    position: absolute;
+    top: 0.45rem;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home-nav>ul>li>.pri-list>ul {
+    background-color: #fff;
+    padding: 0 0.2rem;
+    font-size: 0.12rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+}
+
+.home-nav>ul>li>.pri-list>ul>li {
+    padding: 0.1rem 0;
+    border-bottom: 0.01rem solid #ccc;
+    color: #333;
+}
+
+.home-nav>ul>li .between ul li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-nav>ul>li .between ul li span {
+    display: block;
+    width: 0.18rem;
+    height: 0.18rem;
+    border: 0.01rem solid #ccc;
+}
+
+.home-nav>ul>li .between ul li span.active {
+    background: url(../image/SecondHandList/ok.png) no-repeat 0 0.02rem;
+}
+
+.home-nav>ul>li .between ul p {
+    width: 100%;
+    height: 0.4rem;
+    text-align: center;
+    line-height: 0.4rem;
+    background-color: #FF8A00;
+    color: #fff;
+}
+
+.home-nav>ul>li>.more {
+    position: absolute;
+    top: 0.45rem;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home-nav>ul>li>.more .more-item {
+    padding: 0.2rem 0.2rem;
+    background-color: #fff;
+    border-bottom: 0.01rem solid #ccc;
+}
+
+.home-nav>ul>li>.more .more-item h5 {
+    font-size: 0.16rem;
+    margin-bottom: 0.1rem;
+}
+
+.home-nav>ul>li>.more .more-item ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-nav>ul>li>.more .more-item ul li {
+    width: 25%;
+    font-size: 0.16rem;
+}
+
+.home-nav>ul>li>.more .more-item ul li p {
+    text-align: center;
+    margin: 0.03rem 0.04rem;
+    border: 0.01rem solid #ccc;
+    box-sizing: border-box;
+}
